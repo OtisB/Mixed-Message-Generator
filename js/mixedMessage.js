@@ -14,10 +14,10 @@ const generateMessage = () => {
 
     const mixedMessage = []
     mixedMessage.push(
-      verbs[Math.floor(Math.random() * verbs.length) + 1],
-      adj[Math.floor(Math.random() * adj.length) + 1],
-      nouns[Math.floor(Math.random() * nouns.length) + 1],
-      punctuation[Math.floor(Math.random() * punctuation.length) + 1]
+      verbs[Math.floor(Math.random() * verbs.length)],
+      adj[Math.floor(Math.random() * adj.length)],
+      nouns[Math.floor(Math.random() * nouns.length)],
+      punctuation[Math.floor(Math.random() * punctuation.length)]
     );
     console.log(mixedMessage.join(' '));
   }
